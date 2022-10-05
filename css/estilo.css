@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1.1rem;
+}
+
+:root{
+    --textoparaP:1.1rem;
+}
+
+/*limpiar mis etiquetas basicas*/
+ul,a{
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+   
+}
+
+/* dar estilos a objetos alternos*/
+
+hr{
+    width: 200px;
+    height: 2px;
+    background-color: #2196f3;
+    border: none;
+    margin-bottom: 80px;
+}
+
+
+
+main{
+    background-color: red;
+}
+
+
+section{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 150px ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion{
+    display: flex;
+}
+.navegacion li{
+    margin: 0 15px;
+}
+
